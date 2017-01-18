@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Michael Book Review</title>
+    <link>http://laukinglam.github.io/bookshelf/index.xml</link>
+    <description>Recent content on Michael Book Review</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2017 11:43:51 +0800</lastBuildDate>
+    <atom:link href="http://laukinglam.github.io/bookshelf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>good to great</title>
+      <link>http://laukinglam.github.io/bookshelf/post/good-to-great/</link>
+      <pubDate>Wed, 18 Jan 2017 11:43:51 +0800</pubDate>
+      
+      <guid>http://laukinglam.github.io/bookshelf/post/good-to-great/</guid>
+      <description>&lt;p&gt;I read &lt;strong&gt;Good to Great in Jan 2016&lt;/strong&gt;. An awesome read sharing detailed analysis on how good companies became great.&lt;/p&gt;
+
+&lt;p&gt;test&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
