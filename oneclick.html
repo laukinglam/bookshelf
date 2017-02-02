@@ -1,0 +1,46 @@
+<html>
+<head>
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="session"></div>
+<input id="loginUrl" type="text" value="http://localhost/wifi_session.html"></input>
+<button onclick="login()">Submit</button>
+<script>
+
+var loginUrl = 'http://localhost/wifi_session.html';
+
+$('#session').html('init value');
+
+$.ajax({
+   url: loginUrl,
+   type:'GET',
+   success: function(data){
+		da = $(data);
+		console.log($(data).find('#soln_session'));
+	   $('#session').html($(data)[3].value);
+   }
+});
+
+function login() {
+	//alert('login in');
+	$.ajax({
+		url: loginUrl,
+		type: 'POST',
+		data: {
+			'
+		},
+		success: function(data) {
+			console.log(data);
+		}
+	});
+}
+
+</script>
+</body>
+</html>
